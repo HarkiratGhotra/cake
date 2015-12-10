@@ -1,0 +1,1052 @@
+2015-10-22 19:38:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Articles could not be found.
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-22 19:39:01 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php, line 44]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-22 19:39:02 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-22 19:40:30 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-22 19:40:30 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-22 19:40:59 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-22 19:40:59 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 42)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-22 19:41:01 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-22 19:41:01 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 42)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-22 19:41:40 Warning: Warning (4096): Argument 1 passed to App\Model\Table\ArticlesTable::validationDefault() must be an instance of App\Model\Table\Validator, instance of Cake\Validation\Validator given, called in C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Validation\ValidatorAwareTrait.php on line 106 and defined in [C:\xampp\htdocs\cakephp\src\Model\Table\ArticlesTable.php, line 15]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Model\Table\ArticlesTable::validationDefault() - APP/Model\Table\ArticlesTable.php, line 15
+Cake\ORM\Table::validator() - CORE\src\Validation\ValidatorAwareTrait.php, line 106
+Cake\View\Form\EntityContext::_getValidator() - CORE\src\View\Form\EntityContext.php, line 403
+Cake\View\Form\EntityContext::isRequired() - CORE\src\View\Form\EntityContext.php, line 349
+Cake\View\Helper\FormHelper::_magicOptions() - CORE\src\View\Helper\FormHelper.php, line 1231
+Cake\View\Helper\FormHelper::_parseOptions() - CORE\src\View\Helper\FormHelper.php, line 1132
+Cake\View\Helper\FormHelper::input() - CORE\src\View\Helper\FormHelper.php, line 987
+include - APP/Template\Articles\add.ctp, line 6
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-22 19:42:00 Warning: Warning (4096): Argument 1 passed to App\Model\Table\ArticlesTable::validationDefault() must be an instance of App\Model\Table\Validator, instance of Cake\Validation\Validator given, called in C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Validation\ValidatorAwareTrait.php on line 106 and defined in [C:\xampp\htdocs\cakephp\src\Model\Table\ArticlesTable.php, line 15]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Model\Table\ArticlesTable::validationDefault() - APP/Model\Table\ArticlesTable.php, line 15
+Cake\ORM\Table::validator() - CORE\src\Validation\ValidatorAwareTrait.php, line 106
+Cake\View\Form\EntityContext::_getValidator() - CORE\src\View\Form\EntityContext.php, line 403
+Cake\View\Form\EntityContext::isRequired() - CORE\src\View\Form\EntityContext.php, line 349
+Cake\View\Helper\FormHelper::_magicOptions() - CORE\src\View\Helper\FormHelper.php, line 1231
+Cake\View\Helper\FormHelper::_parseOptions() - CORE\src\View\Helper\FormHelper.php, line 1132
+Cake\View\Helper\FormHelper::input() - CORE\src\View\Helper\FormHelper.php, line 987
+include - APP/Template\Articles\edit.ctp, line 6
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-10-22 19:43:04 Warning: Warning (4096): Argument 1 passed to App\Model\Table\ArticlesTable::validationDefault() must be an instance of App\Model\Table\Validator, instance of Cake\Validation\Validator given, called in C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Validation\ValidatorAwareTrait.php on line 106 and defined in [C:\xampp\htdocs\cakephp\src\Model\Table\ArticlesTable.php, line 15]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Model\Table\ArticlesTable::validationDefault() - APP/Model\Table\ArticlesTable.php, line 15
+Cake\ORM\Table::validator() - CORE\src\Validation\ValidatorAwareTrait.php, line 106
+Cake\View\Form\EntityContext::_getValidator() - CORE\src\View\Form\EntityContext.php, line 403
+Cake\View\Form\EntityContext::isRequired() - CORE\src\View\Form\EntityContext.php, line 349
+Cake\View\Helper\FormHelper::_magicOptions() - CORE\src\View\Helper\FormHelper.php, line 1231
+Cake\View\Helper\FormHelper::_parseOptions() - CORE\src\View\Helper\FormHelper.php, line 1132
+Cake\View\Helper\FormHelper::input() - CORE\src\View\Helper\FormHelper.php, line 987
+include - APP/Template\Articles\add.ctp, line 6
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-11-09 00:31:05 Error: [PDOException] SQLSTATE[HY000] [1049] Unknown database 'blog'
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(164): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(122): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\ArticlesTable))
+#10 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1228): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\ArticlesTable))
+#11 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(931): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php(13): Cake\ORM\Table->find('all')
+#13 [internal function]: App\Controller\ArticlesController->index()
+#14 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#17 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2015-11-09 00:31:06 Error: [PDOException] SQLSTATE[HY000] [1049] Unknown database 'blog'
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(164): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(122): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\ArticlesTable))
+#10 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1228): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\ArticlesTable))
+#11 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(931): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php(13): Cake\ORM\Table->find('all')
+#13 [internal function]: App\Controller\ArticlesController->index()
+#14 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#17 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2015-11-09 00:36:46 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.articles' doesn't exist
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'articles', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('articles', Array)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('articles')
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(164): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(122): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\ArticlesTable))
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1228): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\ArticlesTable))
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(931): Cake\ORM\Table->query()
+#7 C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php(13): Cake\ORM\Table->find('all')
+#8 [internal function]: App\Controller\ArticlesController->index()
+#9 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#11 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#12 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2015-11-09 00:57:44 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\xampp\htdocs\cakephp\src\Model\Table\ArticlesTable.php, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 00:57:45 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 22)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 00:59:29 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\xampp\htdocs\cakephp\src\Model\Table\ArticlesTable.php, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 00:59:30 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 22)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 00:59:38 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\xampp\htdocs\cakephp\src\Model\Table\ArticlesTable.php, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 00:59:39 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 22)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 01:00:06 Error: Fatal Error (4): syntax error, unexpected 'return' (T_RETURN) in [C:\xampp\htdocs\cakephp\src\Model\Table\ArticlesTable.php, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 01:00:07 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'return' (T_RETURN)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 01:01:12 Error: Fatal Error (1): Call to a member function format() on a non-object in [C:\xampp\htdocs\cakephp\src\Template\Articles\index.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 01:01:13 Error: [Cake\Error\FatalErrorException] Call to a member function format() on a non-object
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 01:01:15 Error: Fatal Error (1): Call to a member function format() on a non-object in [C:\xampp\htdocs\cakephp\src\Template\Articles\index.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 01:01:15 Error: [Cake\Error\FatalErrorException] Call to a member function format() on a non-object
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 01:02:02 Error: Fatal Error (1): Call to a member function format() on a non-object in [C:\xampp\htdocs\cakephp\src\Template\Articles\index.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 01:02:03 Error: [Cake\Error\FatalErrorException] Call to a member function format() on a non-object
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 01:02:28 Error: Fatal Error (1): Call to a member function format() on a non-object in [C:\xampp\htdocs\cakephp\src\Template\Articles\index.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 01:02:29 Error: [Cake\Error\FatalErrorException] Call to a member function format() on a non-object
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 01:02:33 Error: Fatal Error (1): Call to a member function format() on a non-object in [C:\xampp\htdocs\cakephp\src\Template\Articles\index.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 01:02:34 Error: [Cake\Error\FatalErrorException] Call to a member function format() on a non-object
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 01:02:41 Error: Fatal Error (4): syntax error, unexpected 'return' (T_RETURN) in [C:\xampp\htdocs\cakephp\src\Model\Table\ArticlesTable.php, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 01:02:41 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'return' (T_RETURN)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 01:02:53 Error: Fatal Error (1): Call to a member function format() on a non-object in [C:\xampp\htdocs\cakephp\src\Template\Articles\index.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 01:02:53 Error: [Cake\Error\FatalErrorException] Call to a member function format() on a non-object
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 01:03:41 Error: Fatal Error (4): syntax error, unexpected 'return' (T_RETURN) in [C:\xampp\htdocs\cakephp\src\Model\Table\ArticlesTable.php, line 23]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 01:03:42 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'return' (T_RETURN)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 01:03:54 Error: Fatal Error (1): Call to a member function format() on a non-object in [C:\xampp\htdocs\cakephp\src\Template\Articles\index.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 01:03:54 Error: [Cake\Error\FatalErrorException] Call to a member function format() on a non-object
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 01:06:09 Error: Fatal Error (1): Call to a member function format() on a non-object in [C:\xampp\htdocs\cakephp\src\Template\Articles\index.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 01:06:09 Error: [Cake\Error\FatalErrorException] Call to a member function format() on a non-object
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 01:06:10 Error: Fatal Error (1): Call to a member function format() on a non-object in [C:\xampp\htdocs\cakephp\src\Template\Articles\index.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 01:06:10 Error: [Cake\Error\FatalErrorException] Call to a member function format() on a non-object
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 01:07:44 Error: Fatal Error (4): syntax error, unexpected ',', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\xampp\htdocs\cakephp\src\Template\Articles\index.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 01:07:44 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ',', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 01:08:07 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\cakephp\src\Template\Articles\index.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 01:08:07 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 01:17:41 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\xampp\htdocs\cakephp\src\Model\Table\ArticlesTable.php, line 26]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 01:17:41 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 01:32:11 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\xampp\htdocs\cakephp\src\Template\Articles\add.ctp, line 13]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 01:32:12 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /cakephp/articles/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 01:32:31 Error: Fatal Error (1): Call to a member function select() on a non-object in [C:\xampp\htdocs\cakephp\src\Template\Articles\add.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 01:32:32 Error: [Cake\Error\FatalErrorException] Call to a member function select() on a non-object
+Request URL: /cakephp/articles/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 11)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 01:53:46 Error: Fatal Error (4): syntax error, unexpected ''Province'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\xampp\htdocs\cakephp\src\Template\Articles\add.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 01:53:46 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''Province'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /cakephp/articles/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 02:21:12 Error: Fatal Error (4): syntax error, unexpected 'add' (T_STRING), expecting ']' in [C:\xampp\htdocs\cakephp\src\Template\Articles\edit.ctp, line 23]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 02:21:13 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'add' (T_STRING), expecting ']'
+Request URL: /cakephp/articles/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 02:30:58 Error: Fatal Error (4): syntax error, unexpected 'add' (T_STRING), expecting ']' in [C:\xampp\htdocs\cakephp\src\Template\Articles\edit.ctp, line 23]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 02:30:58 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'add' (T_STRING), expecting ']'
+Request URL: /cakephp/articles/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 02:32:11 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in [C:\xampp\htdocs\cakephp\src\Template\Articles\edit.ctp, line 23]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 02:32:11 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+Request URL: /cakephp/articles/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 02:47:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-09 02:48:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-09 02:52:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-09 02:52:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-09 02:52:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-09 02:53:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-09 02:54:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-09 02:55:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-09 02:56:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-09 02:56:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-09 03:04:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-09 03:06:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-09 03:06:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-09 03:07:43 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 15]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 03:07:43 Error: [Cake\Error\FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 03:09:40 Error: [Cake\View\Exception\MissingTemplateException] Template file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\View.php(575): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#4 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-11-09 03:10:22 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 15]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 03:10:23 Error: [Cake\Error\FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 16:36:39 Error: [PDOException] SQLSTATE[HY000] [1049] Unknown database 'blog'
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(164): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(122): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\ArticlesTable))
+#10 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1228): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\ArticlesTable))
+#11 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(931): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php(13): Cake\ORM\Table->find('all')
+#13 [internal function]: App\Controller\ArticlesController->index()
+#14 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#17 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2015-11-09 17:01:55 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\xampp\htdocs\cakephp\src\Controller\UsersController.php, line 15]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-09 17:01:56 Error: [Cake\Error\FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-09 18:13:49 Error: [PDOException] SQLSTATE[HY000] [1049] Unknown database 'blog'
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(164): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(122): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\ArticlesTable))
+#10 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1228): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\ArticlesTable))
+#11 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(931): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php(13): Cake\ORM\Table->find('all')
+#13 [internal function]: App\Controller\ArticlesController->index()
+#14 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#17 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2015-11-09 18:14:16 Error: [PDOException] SQLSTATE[HY000] [1049] Unknown database 'blog'
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(164): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(122): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\ArticlesTable))
+#10 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1228): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\ArticlesTable))
+#11 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(931): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php(13): Cake\ORM\Table->find('all')
+#13 [internal function]: App\Controller\ArticlesController->index()
+#14 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#17 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2015-11-09 18:14:19 Error: [PDOException] SQLSTATE[HY000] [1049] Unknown database 'blog'
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(164): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(122): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\ArticlesTable))
+#10 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1228): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\ArticlesTable))
+#11 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(931): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php(13): Cake\ORM\Table->find('all')
+#13 [internal function]: App\Controller\ArticlesController->index()
+#14 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#17 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2015-11-09 18:18:23 Error: [PDOException] SQLSTATE[HY000] [1049] Unknown database 'blog'
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(164): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(122): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\ArticlesTable))
+#10 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1228): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\ArticlesTable))
+#11 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(931): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php(13): Cake\ORM\Table->find('all')
+#13 [internal function]: App\Controller\ArticlesController->index()
+#14 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#17 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2015-11-09 18:18:26 Error: [PDOException] SQLSTATE[HY000] [1049] Unknown database 'blog'
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(164): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(122): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\ArticlesTable))
+#10 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1228): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\ArticlesTable))
+#11 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(931): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php(13): Cake\ORM\Table->find('all')
+#13 [internal function]: App\Controller\ArticlesController->index()
+#14 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#17 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2015-11-09 18:18:27 Error: [PDOException] SQLSTATE[HY000] [1049] Unknown database 'blog'
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(164): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(122): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\ArticlesTable))
+#10 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1228): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\ArticlesTable))
+#11 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(931): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php(13): Cake\ORM\Table->find('all')
+#13 [internal function]: App\Controller\ArticlesController->index()
+#14 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#17 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2015-11-09 18:18:28 Error: [PDOException] SQLSTATE[HY000] [1049] Unknown database 'blog'
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(164): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Query.php(122): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\ArticlesTable))
+#10 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1228): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\ArticlesTable))
+#11 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(931): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php(13): Cake\ORM\Table->find('all')
+#13 [internal function]: App\Controller\ArticlesController->index()
+#14 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#17 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2015-11-09 18:21:43 Error: [RuntimeException] Cannot insert row in "articles" table, it has no primary key.
+Request URL: /cakephp/articles/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1446): Cake\ORM\Table->_insert(Object(Cake\ORM\Entity), Array)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(Cake\ORM\Entity), Object(ArrayObject))
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#4 C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php(35): Cake\ORM\Table->save(Object(Cake\ORM\Entity))
+#5 [internal function]: App\Controller\ArticlesController->add()
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#8 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#9 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2015-11-09 18:27:42 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /cakephp/articles/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(171): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Query.php(174): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1530): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1446): Cake\ORM\Table->_insert(Object(Cake\ORM\Entity), Array)
+#7 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1377): Cake\ORM\Table->_processSave(Object(Cake\ORM\Entity), Object(ArrayObject))
+#8 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Database\Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1378): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php(35): Cake\ORM\Table->save(Object(Cake\ORM\Entity))
+#11 [internal function]: App\Controller\ArticlesController->add()
+#12 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#15 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
